@@ -1,38 +1,130 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container{
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  height:100vh;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  background-color: blueviolet;
+}
+.form{
+  height:400px;
+  width:400px;
+  background-color: aquamarine;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 0 0 5px;
+}
+#name{
+  height:20px;
+  margin-left: 75px;
+}
+#email{
+  margin-left:82px;
+  height:20px;
+  margin-top: 10px;
+}
+#password{
+  margin-left:48px;
+  height:20px;
+  margin-top:10px;
+}
+#phone{
+  height: 20px;
+  margin-top:10px;
+}
+#profession{
+  height:30px;
+  margin-left:27px;
+  margin-top:10px;
+}
+#btnsubmit{
+  margin-top:30px;
+  height:35px;
+  width:120px;
+  border: solid 1px red;
+  transition: 1s;
+}
+#btnsubmit:hover{
+  background-color: antiquewhite;
+  border-radius: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+
+/* login */
+.username,.password{
+  height:30px;
+  width:70%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+/* Home */
+.navbar{
+  background-color: aquamarine;
+  height:40px;
+  width:100%;
+}
+.btn{
+  height:30px;
+  width:150px;
+  margin-left:15%;
+  margin-top:5px;
+}
+.main{
+  height:300px;
+  width:300px;
+  background-color: blueviolet;
+  border-radius: 10px;
+  box-shadow: 0 0 5px;
+  margin:50px 0 0 50px;
+}
+.details{
+  font-weight: bold;
+}
+
+.container2{
+  display: flex;
+  /* justify-content: space-between; */
+  margin-top: 20px;
+  border:1px solid black;
+  border-radius: 10px;
+  box-shadow: 0 0 5px;
+  width:45%;
+  height:300px;
+  margin-left:40px;
+}
+.votes{
+  width:60px;
+  /* background-color: aquamarine; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.vote{
+  display:inline;
+}
+.image{
+  width:200px;
+  margin-top:20px;
+}
+.content{
+  width:300px;
+  margin-top:20px;
+}
+
+.btn{
+  width:100%;
+  background-color: rgb(10, 89, 235);
+  border: 1px solid black;
+  height:35px;
+  border-radius: 5px;
+  color:aliceblue
+}
+.menu{
+  background-color:  blueviolet;
+  height:35px;
+  width:160px;
+  border:none;
+  border-radius: 5px;
+  margin-top: 2px;
+  margin-left: 50px;
 }
